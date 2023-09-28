@@ -67,8 +67,10 @@ Query Methods:
 https://www.mongodb.com/docs/manual/reference/method/js-collection/
 
 Shell Commands:
-https://www.tutorialsteacher.com/mongodb/mongodb-shell-commands
+[https://www.tutorialsteacher.com/mongodb/mongodb-shell-commands](https://www.mongodb.com/docs/mongodb-shell/run-commands/)
 
 To view the database in a local GUI you can download Compass:
+
 https://www.mongodb.com/try/download/shell
+
 Point it to your localhost at the same port as above.
