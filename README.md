@@ -32,7 +32,7 @@ Then to start the container:
 
 When testing we can configure the database url (known as uri in MongoDB) to be:
 
-"mongodb://localhost:27017"
+"mongodb://localhost:27017" -- This is the port we configured in the .sh file.
 
 In development we can point to the Atlas database which be can configured to your user in the browser.
 
@@ -68,3 +68,7 @@ https://www.mongodb.com/docs/manual/reference/method/js-collection/
 
 Shell Commands:
 https://www.tutorialsteacher.com/mongodb/mongodb-shell-commands
+
+To view the database in a local GUI you can download Compass:
+https://www.mongodb.com/try/download/shell
+Point it to your localhost at the same port as above.
