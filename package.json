@@ -1,0 +1,21 @@
+{
+  "name": "sl-side-hustle",
+  "version": "1.0.0",
+  "description": "A side project for seminar groups to build a platform to help people find those with similar interests in the company.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0"
+  }
+}
