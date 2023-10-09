@@ -86,3 +86,19 @@ To view the database in a local GUI you can download Compass:
 https://www.mongodb.com/try/download/shell
 
 Point it to your localhost at the same port as above.
+
+## Contributors
+
+<table>
+  <tr>
+    <td>
+    <img src="https://github.com/Augs0.png" width="60px;"/><br />
+    <sub><a href="https://github.com/Augs0">Augs0</a></sub>
+    </td>
+    <td>
+    <img src="https://github.com/RichardNeat.png" width="60px;"/><br />
+    <sub><a href="https://github.com/RichardNeat">RNeat</a></sub>
+    </td>
+    </tr>
+</table>
+
