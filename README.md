@@ -12,6 +12,18 @@ A side project for seminar groups to build a platform to help people find those 
 - dotenv
 - express
 
+### Environment Variables
+
+Create two files in the root of the project
+- .env.development
+```
+uri = <atlas url link here>
+```
+- .env.test
+```
+uri = mongodb://localhost:27017
+```
+
 ## Docker
 
 The container.sh file is configured to setup a local container for the database.
