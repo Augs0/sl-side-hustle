@@ -4,7 +4,7 @@
   "description": "A side project for seminar groups to build a platform to help people find those with similar interests in the company.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
