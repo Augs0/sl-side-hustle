@@ -1,13 +1,18 @@
-const {MongoClient} = require('mongodb');
+const mongoose = require('mongoose');
 
-const ENV = process.env.NODE_ENV || 'development';
+const connection = () => {
+  const ENV = process.env.NODE_ENV || 'development';
+  
+  require('dotenv').config({
+    path: `${__dirname}/../.env.${ENV}`
+  });
+  
+  
+  if (!process.env.uri) {
+    throw new Error('URI not set');
+  };
+  
+  mongoose.connect(process.env.uri, {dbName: 'nc-hobbies'});
+}
 
-require('dotenv').config({
-  path: `${__dirname}/../.env.${ENV}`
-});
-
-if (!process.env.uri) {
-  throw new Error('URI not set');
-};
-
-module.exports = new MongoClient(process.env.uri);
+module.exports = connection;
