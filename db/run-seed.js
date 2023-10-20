@@ -1,4 +1,3 @@
-// const data = require('./data/dev-data');
 const seed = require('./seed');
 
 const client = require('./');
